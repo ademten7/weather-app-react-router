@@ -1,0 +1,20 @@
+.navigation {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: teal;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    .links {
+        width: 70%;
+    }
+    .list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        a {
+            text-decoration: none;
+            color: skyblue;
+        }
+    }
+}

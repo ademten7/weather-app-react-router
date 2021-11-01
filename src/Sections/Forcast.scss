@@ -1,0 +1,23 @@
+.days {
+    display: grid;
+    place-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.day-list {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.myActiveClass {
+    color: skyblue;
+    font-size: 2em;
+}
+
+.day-list:hover {
+    background-color: tomato;
+    color: skyblue;
+}
