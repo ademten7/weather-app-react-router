@@ -1,3 +1,3 @@
 # Nested React Router
 
-![Result screenshot](src/images/ScreenshotOfWeatherapp.png)
+![Result screenshot](src/images/Weatherapp.png)
