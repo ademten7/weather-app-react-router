@@ -1,5 +1,6 @@
 import React from "react";
 import "./SingleForcast.scss";
+import { Link } from "react-router-dom";
 
 const SingleForcast = (props) => {
   console.log(props);
@@ -13,7 +14,11 @@ const SingleForcast = (props) => {
           src={`http://openweathermap.org/img/wn/${location.state.weather[0].icon}@2x.png`}
           alt=""
         />
-        <p>{location.state.weather[0].main}</p>
+        {/* Dont give same name like ===> :clouds from App.js  and here clouds
+        They sholud be different */}
+        <Link to={{ pathname: `/forcast/${match.params.name}/clouds` }}>
+          <p>{location.state.weather[0].main}</p>
+        </Link>
         <p>Description: {location.state.weather[0].description}</p>
         <p>Temperature: {location.state.temp.day}°C</p>
         <p>Minimum: {location.state.temp.min}°C</p>
