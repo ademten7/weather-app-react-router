@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Navigation from "./NavBar/Navigation";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Sections/Home";
 import About from "./Sections/About";
 import Contact from "./Sections/Contact";
@@ -14,7 +14,7 @@ import SingleDeper from "./Sections/SingleDeper";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={{ backgroundColor: "skyblue" }} className="container">
         <Navigation />
         <Forcast />
@@ -38,7 +38,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
