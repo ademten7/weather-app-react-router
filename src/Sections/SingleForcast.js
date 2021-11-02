@@ -7,7 +7,6 @@ const SingleForcast = (props) => {
   let { history, match, location } = props;
   return (
     <div className="forcast">
-      <h1>KIEL 8 DAYS FORCAST</h1>
       <div className="box">
         <h2 className="header">{match.params.name}</h2>
         <img
