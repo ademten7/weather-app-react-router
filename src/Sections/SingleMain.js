@@ -8,6 +8,7 @@ const SingleMain = (props) => {
     <div>
       <h1>This is main from weather</h1>
       <h2>I dont know how could I do that</h2>
+      <p>Path Name:{location.pathname}</p>
       <Link
         to={{
           pathname: `/forcast/${match.params.name}/${match.params.main}/last`,
