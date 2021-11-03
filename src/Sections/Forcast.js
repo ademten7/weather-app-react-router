@@ -21,7 +21,7 @@ const Forcast = () => {
       )
         .then((response) => response.json())
         .then((result) => {
-          setData([result.daily]);
+          setData(result.daily);
         });
     });
   };

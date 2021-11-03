@@ -17,7 +17,7 @@ function App() {
     <HashRouter>
       <div style={{ backgroundColor: "skyblue" }} className="container">
         <Navigation />
-        <Forcast />
+
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
