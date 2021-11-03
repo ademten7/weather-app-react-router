@@ -31,6 +31,7 @@ export default class Forcast extends Component {
       <div className="days">
         <ul className="forcast">
           {this.state.data.map((data, index) => {
+            console.log("rendered");
             return (
               <li key={index}>
                 <NavLink
