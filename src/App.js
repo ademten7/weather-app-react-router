@@ -15,7 +15,10 @@ import SingleDeper from "./Sections/SingleDeper";
 function App() {
   return (
     <HashRouter>
-      <div style={{ backgroundColor: "skyblue" }} className="container">
+      <div
+        style={{ backgroundColor: "skyblue", padding: "20px" }}
+        className="container"
+      >
         <Navigation />
 
         <Switch>

@@ -1,16 +1,26 @@
 .navigation {
+    display: flex;
+    flex-direction: column;
     margin-top: 2em;
     margin-bottom: 2em;
     background-color: teal;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
+    .links-nav {
+        display: flex;
+        width: 80%;
+    }
     .links {
-        width: 70%;
+        width: 80%;
+        display: flex;
+        align-items: center;
     }
     .list {
+        width: 80%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 0;
         a {
             text-decoration: none;
