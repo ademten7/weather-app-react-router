@@ -47,4 +47,7 @@ const Forcast = () => {
   );
 };
 
+
 export default Forcast;
+
+  
